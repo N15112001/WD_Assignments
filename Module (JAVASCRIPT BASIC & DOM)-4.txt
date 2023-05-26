@@ -1,0 +1,145 @@
+    
+
+            1.	What is JavaScript?
+            Ans: JavaScript is the Programming Language for the Web.
+                          JavaScript can-update and change both HTML and CSS.
+                          JavaScript can calculate, manipulate and validate data.
+
+
+           2.	What is the use of isNaN function?
+           Ans: The JavaScript isNaN() function is used to check whether a given is an illegal number
+                     or not.
+                          It returns true if the value is a NaN else returns false.
+
+
+           3.	What is negative infinity?
+           Ans: Number .NEGATIVE_INFINITY IS a special numeric value that  is returned when
+                    an arithmetic operation or mathematical function generates a negative value greater than the largest                    
+                    representable number in JavaScript.
+
+
+           4.	Which company developed JavaScript?
+           Ans: JavaScript was invented by Brendan Eich in 1995. It was developed 
+                    for Netscape 2, and became the ECMA the mozilla foundation continued to develop 
+                    JavaScript for the Firefox browser.
+
+
+         5.	What are undeclared and undefined variables?
+         Ans: Undefined: it occurs when a variable has been declared but has not been assigned any 
+                   value. Undefined is not a keyword.
+
+                  Undeclared: it occurs when we try to access any variable that is not initialized or 
+                  declared earlier using the var or const keyword.
+
+
+
+             6.	Write the code for adding new elements dynamically?
+            Ans:  Syntax: 
+                       document.createElement(“<tagName>”);
+                       // where <tagName> can be any HTML
+                      // tagName like div, ul, button etc;
+                     // newDiv element has been created 
+
+                       For eg: let newDiv = document.createElement(“div”);
+
+
+             7.	What is the difference between ViewState and SessionState?
+            Ans: ViewState: It is maintained at only one level that is page-level. Changes made on a
+                      single page is not visible on other pages.
+
+                       	Information that gathered in ViewState is stored for the clients only and cannot be transferred to any other place.
+
+                       SessionState: It is maintained at session-level and data can be accessed across all pages in the web application.
+                       Information is stored within the server and can be accessed by any person that has access to the sever where 
+                       the information is stored.
+
+
+             8.	What is === operator?
+             Ans: Strict equality (===):
+
+                         	The strict equality (===) operator checks whether its two operands are equal, 
+                                     returning a Boolean result. Unlike the equality operator, the strict equality operator always  
+                                     considers operands of different types to be different.
+
+
+              9.	How can the style/class of an element be changed in JavaScript?
+              Ans: There are two ways to change Style/class of an element…
+
+                              1.	Changing css with style properties:-
+                                    Syntax: document.getElementById(“id”).style.property = new.style
+
+                              2.	Changing class itself:-  here we can use two properties that can manipulate the classes.
+                                           a.  ClassList property:- 
+                                                  Syntax: document.getElementById(“id”).classList
+	                                      Here we can use add(), remove(), toggle() method to manipulate the classes
+
+                                           b.	 The className Property:- 
+                                                  Syntax: document.getElementById(“id”).className = class
+	                                      This property is used to set the current class of the element to the specified class.
+
+
+
+                  10.	 How to read and write a file using JavaScript?
+                  Ans: The fs.readFile() and rs.writeFile() methods are used to read and write of a file using
+                            JavaScript. The file is read using the fs.readFile() function, which is an inbuilt method. This     
+                            technique reads the full file into memory and stores it in a buffer.
+
+
+                 11.	   What are all the looping structures in JavaScript?
+                 Ans: JavaScript supports five different types of loops:
+                             	While: loops though a block of code as long as the condition specified evaluates to true.
+                             	Do-while: loops through a block of code once. Then the condition is evaluated. If the
+                                     condition is true the statement is repeated as long as the specified condition is true.
+                             	For: loops through a block of code until the counter reaches a specified number.
+                             	For-in: loops through the properties of an object.
+                             	For-of: loops over iterable objects such as arrays strings etc
+
+
+                   12.	How can you convert the string of any base to an integer in JavaScript?
+                   Ans: Given a string containing an integer value and along with that user passes a base value.
+                                	We need to convert that string of any base value to an integer in JavaScript.
+                                	For performing the above-illustrated task, we would be using a method provided 
+                                    by JavaScript called as parseInt().
+
+
+                    13.	What is the function of the delete operator?
+                    Ans: The delete operator removes a property from an object. If the property’s value is an object
+                              and there are no more references to the object, the object held by that property is                                      
+                              eventually released automatically
+
+
+                     14.	What are all the types of POP-UP boxes available in JavaScript?
+                     Ans: In JavaScript, popup boxes are used to display the message or notification to the user. 
+                                         There are three types of pop-up boxes in JavaScript namely Alert Box, 
+                                             Confirm Box and Prompt Box.
+
+
+                   15.	What is use of void (0)?
+                   Ans: Void (0) means return undefined as a primitive value. We use this to prevent any 
+                             negative effects on a webpage when we insert some expression
+
+
+                   16.	How can a page be forced to load another page in JavaScript?
+                   Ans: We can use window.location property inside the script tag to forcefully load another 
+                            page in JavaScript. It is a reference to a location object that is it represents the 
+                            current location of the document we can change the URL of a window by accessing it.
+
+                          Syntax:
+                                   <script>
+	                                Window.location = <path / URL>
+                                    </script>
+
+
+
+               17.	What are the disadvantages of using innerHTML in JavaScript?
+               Ans: Disadvantages of using innerHTML property in JavaScript:
+                                    The use of innerHTML very slow.
+                            	Preserves event handlers attached to any DOM elements.
+                            	Content is replaced everywhere.
+                            	Appending to innerHTML is not supported.
+                            	Old content replaced issue.
+                            	Can also be used for cross-site scripting.
+
+
+
+
