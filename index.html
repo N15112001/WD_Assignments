@@ -1,188 +1,422 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salads</title>
 
-       
-       <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-       
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
-       <link rel="stylesheet"
-           href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
-       <title>Document</title>
-       <script>
-           $(document).ready(function () {
-               $(".owl-carousel").owlCarousel({
-                   loop: true,
-                   margin: 10,
-                   responsiveClass: true,
-   
-                   responsive: {
-                       0: {
-                           items: 1,
-                           nav: true,
-                       },
-                       600: {
-                           items: 3,
-                           nav: false,
-                       },
-                       
-                   },
-               });
-           });
-       </script>
-   
- 
-
-
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-   <img src="image1.jpg" class="img">
-   <div class="div1">
-    <h1 class="h1">INTRODUCING DREAM PULSE</h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reiciendis omnis explicabo quia amet. Id, expedita maxime! Id, reiciendis. Animi?</P>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eum commodi perspiciatis? Quaerat nulla illum alias magnam sed nisi fugit eaque quam ducimus, omnis dolorem!</p>
-  </div>
-  <div class="container1">
-  <div class="div4">
-     <div class="nik1">
-       <h3 class="h3">DREAM<br> PULSE</h3>
-     </div>
-     <div class="nik2"></div>
 
-     <div class="div6">
-     <h4 class="h4">INTRO <div class="div7"></div></h4>
-     <h4 class="h4">ABOUT</h4>
-     <h4 class="h4">WORK</h4>
-     <h4 class="h4">CLIENTS</h4>
-     <h4 class="h4">LET'S TALK</h4>
-     </div>
-    <div class="div8">
-      
-      <i class="fa-brands fa-square-twitter fa-2xl" style="color: #ebedf1;"></i>
-      <i class="fa-brands fa-square-facebook fa-2xl"style="color:#ebedf1 ;"></i>
-      <i class="fa-brands fa-linkedin fa-2xl"style="color: #ebedf1;"></i>
-      <i class="fa-brands fa-square-instagram fa-2xl"style="color: #ebedf1;"></i>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>sa <span class="fas fa-utensil-spoon"></span>ads</h1>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a class="home">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
 
-    </div> 
-    <p class="p3">Copyright 2020 Dream Pulse</p>
-    <p class="p3">Design Template mo</p>
-
-    
-    
-
-   </div>
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-moon"></i>
+      </div>
+    </nav>
+  </header>
 
 
-  <div class="div5"></div>
-  </div>
 
+  <!-- ===============section-1 : fresh dish===================== -->
+  <section class="section-1">
+    <div class="fresh">
+      <h1>Fresh Healthy</h1>
+      <h1 class="del">Delicious Salads</h1>
+      <p>Healthy foods to eat everyday, Tasty and healthy vegetables salad<br>
+        with fresh tomatoes, coriander leaves and more.</p>
+      <button>Order Now</button>
+    </div>
+    <div class="dish">
+      <img src="banner1.png" alt="">
+    </div>
+  </section>
+
+
+
+  <!-- ==================section-2 : since 2000====================== -->
+
+
+
+  <section class="section-2">
+    <div class="img">
+      <img src="ab1.jpg" class="img1" alt="">
+      <img src="ab2.jpg" class="img2" alt="">
+    </div>
+    <div class="para">
+      <h3>since 2000</h3>
+      <h1>We Have 30+ Years of <br>
+        Experience</h1>
+
+      <p class="p1">"Orem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+        tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat".</p>
+      <p class="p2">Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat.
+        Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+
+      <img src="sign.png" class="img3" alt="">
+    </div>
+  </section>
+
+  <!-- ==================section-3 : popular salads====================== -->
+
+  <section class="section-3">
+    <div class="txt">
+      <h1>Our <span>Popular</span> Salads</h1>
+    </div>
+    <div class="card">
+      <div class="imag">
+        <img src="s2.jpg" alt="">
+        <h3>Green salad</h3>
+        <p>Amus a ligula quam tesque et libero ut <br>
+           justo, ultrices in. Ut eu leo non. Duis sed <br>
+            et dolor amet.</p>
+    </div>
   
-   
-   <div class="container">
-   
-  <div class="div2"> 
-    <i class="fa-sharp fa-solid fa-scale-balanced fa-2xl"></i>
-    <h2 class="h2">About Us</h2>
-    <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sequi deserunt porro natus accusantium pariatur rem quae eaque magnam amet?</p>
-    <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatum, animi itaque, laboriosam aliquid, voluptatem sit aperiam tempora culpa corrupti incidunt? Obcaecati fuga fugit corporis!</p>
-
-   </div>
-
-   <div class="div3">
-    <i class="fa-regular fa-building fa-2xl"></i>
-    <h2 class="h2">Company Profile</h2>
-    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae tempora dolor adipisci molestias aperiam alias voluptas laborum. Necessitatibus, nostrum!</p>
-    <p class="p2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod porro totam ipsa quis accusantium, eligendi eum impedit odit commodi ullam eos explicabo sapiente nesciunt nobis quidem quibusdam saepe.</p>
-   </div>
-   </div>
-
-    <!--owl slider-->
+      <div class="imag">
+        <img src="s1.jpg" alt="">
+      
+      <h3>Fruit salad</h3>
+      <p>Amus a ligula quam tesque et libero ut <br>
+         justo, ultrices in. Ut eu leo non. Duis sed <br>
+         et dolor amet.</p>
+    </div>
+ 
     
-    
-    <div class="div10">
-    <div class="nik3"><h3 class="h5">OUR WORK</h3>
-    <div class="div9">
-    <div class="owl-carousel owl-theme">
-        <div class="item">
-            <img src="nature4.jpg" alt="" />
+      <div class="imag">
+        <img src="s3.jpg" alt="">
+      
+      <h3>Dessert salad</h3>
+      <p>Amus a ligula quam tesque et libero ut <br>
+         justo, ultrices in. Ut eu leo non. Duis sed <br>
+          et dolor amet.</p>
+    </div>
+  </div>
+  </section>
+  <!-- ==================section-4 : Restaurants Menu====================== -->
+<section class="section-4">
+    <div class="menu1">
+      <h1>Our Restaurants <span>Menu</span></h1>
+      <div class="par">
+        <div class="para">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div class="item">
-            <img src="nature1.jpg" alt="" />
+        <div class="para">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div class="item">
-            <img src="nature5.jpg" alt="" />
-        </div>
-        <div class="item">
-            <img src="nature1.jpg" alt="" />
-        </div>
-        <div class="item">
-            <img src="nature4.jpg" alt="" />
-        </div>
-        <div class="item">
-            <img src="nature1.jpg" alt="" />
-        </div>
-        <div class="item">
-            <img src="nature4.jpg" alt="" />
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+      </div>
+      <button>What's on the Menu</button>
+  
+    </div>
+    <div class="image">
+      <img src="img1.png" alt="">
+    </div>
+  
+  </section>
+  
+  <!-- ==================section-5 : Healthy Food====================== -->
+  
+  <section class="section-5">
+        <div class="icon">
+          <span class="fa-solid fa-apple-whole"></span>
         
-    <h3 class="h6">OUR CLIENTS</h3>
-    <div class="div11">
-    <P class="p4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo reprehenderit optio nesciunt iure, adipisci suscipit, labore ea fugit repudiandae accusantium aliquid provident. Obcaecati, tempore rerum.</P>
-    </div> 
-    <div class="container3">
-        <div class="d1"> <img src="belimo.png" class="img1"></div>
-        <div class="d1"><img src="citrus.jpg" class="img1"></div>
-        <div class="d1"><img src="grabyo.jpg" class="img1"></div>
-        <div class="d1"><img src="life group.jpg" class="img1"></div>
+        <div class="part2">
+          <h2>Healthy Food</h2>
+          <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+        </div>
+        </div>
+        <div class="icon">
+          <span class="fa-solid fa-utensils"></span>
         
-
-     </div>
-
-     <div class="container4">
-        <div class="d1"><img src="lilly.jpg" class="img1"></div>
-        <div class="d1"> <img src="myob.jpg" class="img1"></div>
-        <div class="d1"><img src="oldorff.jpg" class="img1"></div>
-        <div class="d1"><img src="trustly.jpg" class="img1"></div>
-
-     </div>
-
-         <div class="d2"></div>
-        <div class="d3"> 
-            <h3 class="h7">Talk to Us</h3><br>
-            <p class="pink">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cumque!</p>
-            <p class="pink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit inventore modi possimus pariatur unde. Debitis.</p>
+        <div class="part2">
+          <h2>Fresh Salads</h2>
+          <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
         </div>
-         <div class="formcontainer">
-            <form class="form_close">
-                <div class="input ">
-                     <input type="text" placeholder="Your Name">
-                </div>
-                <div class="input ">
-                    <input type="email" placeholder="Your Email">
-                </div>
-                <div class="input">
-                    <textarea rows="5" cols="25" placeholder="Message..." class="text"></textarea>
-                 </div>
-                 <button class="btn">SEND</button>
-                
-            </form>
         </div>
-    
+  
+        <div class="icon">
+          <span class="fa-solid fa-carrot"></span>
+        
+        <div class="part2">
+          <h2>Natural Fiber</h2>
+          <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+        </div>
+        </div>
+  
+        <div class="icon">
+          <span class="fa-solid fa-lemon"></span>
+        
+        <div class="part2">
+          <h2>Nutritional Food</h2>
+          <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+        </div>
+      </div>
+  
+        <div class="icon">
+          <span class="fa-solid fa-heart-pulse"></span>
+        
+        <div class="part2">
+          <h2>Protect Your Heart</h2>
+          <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+        </div>
+      </div>
+  
+        <div class="icon">
+          <span class="fa-sharp fa-solid fa-weight-scale"></span>
+       
+        <div class="part2">
+          <h2>Weight Control</h2>
+          <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis.</p>
+        </div>
+      </div>
      
+  
+  </section>
+  
+  <!-- ==================section-6 : Chef's====================== -->
+  
+  <section class="section-6"> 
+  
+    <div class="chef">
+      <h1>Meet Our Best <span>Chef's</span></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at <br>
+         porttitor vehicula nullam augue ipsum dolor. Aenean egestas magna at porttitor <br>
+          ehicula nullam augue ipsum dolor.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at <br>
+         porttitor vehicula nullam augue ipsum dolor</p>
+    
+      <button>See Our Chef's</button>
+    </div>
+  
+      <div class="image1">
+        <img src="img2.png" alt="">
+      </div>
+  
+  </section>
+  
+  <!-- ==================section-7 : slide====================== -->
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true,
+          },
+  
+          1000: {
+            items: 2,
+            nav: true,
+            loop: true
+          }
+        }
+      })
+    })
+  </script>
+  
+  <!-- section-7  -->
+  <div class="owl-carousel owl-theme">
+  
+    <div class="item">
+      <i class="fa-solid fa-quote-left fa-beat" style="color: #f47757;"></i>
+      <span>"Lorem ipsum dolor sit amet."</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda temporibus quam sed in ipsam?</p>
+      <h4>Johnson William</h4>
+      <div class="parth">
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+      </div>
+      <img src="testi1.jpg" alt="s1" style="height: 120px; width: 120px;">
+    </div>
+    <div class="item">
+      <i class="fa-solid fa-quote-left fa-beat" style="color: #f47757;"></i>
+      <span>"Pellen tesque libero ut justo"</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda temporibus quam sed in ipsam?</p>
+      <h4>Johnson William</h4>
+      <div class="parth">
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+      </div>
+      <img src="testi2.jpg" alt="s1" style="height: 120px; width: 120px;">
+    </div>
+    <div class="item">
+      <i class="fa-solid fa-quote-left fa-beat" style="color: #f47757;"></i>
+      <span>"Lorem ipsum dolor sit amet."</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda temporibus quam sed in ipsam?</p>
+      <h4>Johnson William</h4>
+      <div class="parth">
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+      </div>
+      <img src="testi3.jpg" alt="s1" style="height: 120px; width: 120px;">
+    </div>
+    <div class="item">
+      <i class="fa-solid fa-quote-left fa-beat" style="color: #f47757;"></i>
+      <span>"Lorem ipsum dolor sit amet."</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda temporibus quam sed in ipsam?</p>
+      <h4>Johnson William</h4>
+      <div class="parth">
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+      </div>
+      <img src="testi1.jpg" alt="s1" style="height: 120px; width: 120px;">
+    </div>
+    <div class="item">
+      <i class="fa-solid fa-quote-left fa-beat" style="color: #f47757;"></i>
+      <span>"Pellen tesque libero ut justo"</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda temporibus quam sed in ipsam?</p>
+      <h4>Johnson William</h4>
+      <div class="parth">
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+      </div>
+      <img src="testi2.jpg" alt="s1" style="height: 120px; width: 120px;">
+    </div>
+    <div class="item">
+      <i class="fa-solid fa-quote-left fa-beat" style="color: #f47757;"></i>
+      <span>"Lorem ipsum dolor sit amet."</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda temporibus quam sed in ipsam?</p>
+      <h4>Johnson William</h4>
+      <div class="parth">
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+        <i class="fa-solid fa-star" style="color: #fd6d30;"></i>
+      </div>
+      <img src="testi3.jpg" alt="s1" style="height: 120px; width: 120px;">
+    </div>
+  
+  </div>
+  
+  <!-- ==================section-8 : Footer====================== -->
+  <section class="section8">
+    <h1>Subscribe to get email updates of our latest news</h1>
+    <div class="search">
+      <input type="search" placeholder="Enter Your Email" />
+      <button>Subscribe</button>
+    </div>
+    <div class="fot">
+      <div>
+        <h4>About</h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab
+        </p>
+        <div class="sfot">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Food, 10001, 5th Avenue, #06 lane street, NY - 62617.</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>(0261) 12345.</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>tOPS@GMAIL.COM</span>
+        </div>
+      </div>
 
-</body>
+      <div>
+        <h4>QUICK LINKS</h4>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Home</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>About</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Contact</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Servies</span>
+        </div>
+      </div>
+      <div>
+        <h4>HELP & SUPPORT</h4>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>LiveChat</span>
+        </div>
 
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Faq's</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>SUPPORT</span>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-greater-than"></i>
+          <span>Team & use</span>
+        </div>
+      </div>
+    </div>
+    <div class="bfot">
+      <p>&copy; 2021 Salads. All rights reserved. Design by W3Layouts</p>
+    </div>
+  </section>
+  
+  
+  
+  
+  </body>
+  </html>
+  </body>
 </html>
